@@ -1,11 +1,12 @@
 import { me } from "appbit"
 import document from "document"
 import { HeartRateSensor } from "heart-rate"
+import { range } from "scientific"
 
 export default () => {
   if (me.permissions.granted("access_heart_rate")) {
     const degPerMinute = 360 / 60
-    const hearts = [0, 1, 2, 3, 4, 5, 6, 7].map(h => document.getElementById(`heart${h}`))
+    const hearts = range(8).map(h => document.getElementById(`heart${h}`))
 
     const hrm = new HeartRateSensor()
 
