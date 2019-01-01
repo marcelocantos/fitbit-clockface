@@ -1,0 +1,81 @@
+<svg>
+
+    <g id="face" transform="translate(135,125)">
+
+      <!-- <circle r="120" fill="#111111" /> -->
+
+      <g fill="blue">
+        <g id="sHand"><circle cy="-115" r="4" /></g>
+        <g id="sGroup">
+          <arc id="sSeg0" x="-115" y="-115" width="230" height="230" arc-width="2" start-angle="-30" sweep-angle="30" />
+          <arc id="sSeg1" x="-115" y="-115" width="230" height="230" arc-width="2" start-angle="0" sweep-angle="30" fill-opacity="0.5" />
+          <arc id="sSeg2" x="-115" y="-115" width="230" height="230" arc-width="2" start-angle="30" sweep-angle="30" />
+          <line y1="-110" y2="-115" stroke-width="3" />
+          <g transform="rotate(6)"><line y1="-111" y2="-115" stroke-width="1" /></g>
+          <g transform="rotate(12)"><line y1="-111" y2="-115" stroke-width="1" /></g>
+          <g transform="rotate(18)"><line y1="-111" y2="-115" stroke-width="1" /></g>
+          <g transform="rotate(24)"><line y1="-111" y2="-115" stroke-width="1" /></g>
+          <g transform="rotate(30)"><line y1="-110" y2="-115" stroke-width="3" /></g>
+        </g>
+      </g>
+
+      <g fill="green">
+        <g id="mHand"><circle cy="-105" r="4" /></g>
+        <g id="mGroup">
+          <arc id="mSeg0" x="-105" y="-105" width="210" height="210" arc-width="2" start-angle="-30" sweep-angle="30" />
+          <arc id="mSeg1" x="-105" y="-105" width="210" height="210" arc-width="2" start-angle="0" sweep-angle="30" fill-opacity="0.5" />
+          <arc id="mSeg2" x="-105" y="-105" width="210" height="210" arc-width="2" start-angle="30" sweep-angle="30" />
+          <line y1="-100" y2="-105" stroke-width="3" />
+          <g transform="rotate(6)"><line y1="-101" y2="-105" stroke-width="1" /></g>
+          <g transform="rotate(12)"><line y1="-101" y2="-105" stroke-width="1" /></g>
+          <g transform="rotate(18)"><line y1="-101" y2="-105" stroke-width="1" /></g>
+          <g transform="rotate(24)"><line y1="-101" y2="-105" stroke-width="1" /></g>
+          <g transform="rotate(30)"><line y1="-100" y2="-105" stroke-width="3" /></g>
+        </g>
+      </g>
+
+      <g id="hColorGroup" fill="orange">
+        <g id="hHand"><circle cy="-95" r="4" /></g>
+        <g id="hGroup">
+          <arc id="hSeg0" x="-95" y="-95" width="190" height="190" arc-width="2" start-angle="-30" sweep-angle="30" />
+          <arc id="hSeg1" x="-95" y="-95" width="190" height="190" arc-width="2" start-angle="0" sweep-angle="30" fill-opacity="0.5" />
+          <arc id="hSeg2" x="-95" y="-95" width="190" height="190" arc-width="2" start-angle="30" sweep-angle="30" />
+          <line y1="-90" y2="-95" stroke-width="3" />
+          <g transform="rotate(6)"><line y1="-91" y2="-95" stroke-width="1" /></g>
+          <g transform="rotate(12)"><line y1="-91" y2="-95" stroke-width="1" /></g>
+          <g transform="rotate(18)"><line y1="-91" y2="-95" stroke-width="1" /></g>
+          <g transform="rotate(24)"><line y1="-91" y2="-95" stroke-width="1" /></g>
+          <g transform="rotate(30)"><line y1="-90" y2="-95" stroke-width="3" /></g>
+        </g>
+      </g>
+    </g>
+
+    <text id="date" x="1" y="40" fill="silver" font-family="Seville-Bold-Condensed" font-size="40" font-weight="bold">23</text>
+    <text id="weekday" x="1" y="65" fill="silver" font-family="Seville-Bold-Condensed" font-size="26" font-weight="bold">We</text>
+
+    <g transform="translate(299,125)">
+      <g fill="cyan" transform="translate(0,-80)">
+        <image x="-18" y="-18" width="36" height="36" href="img/godzilla-bambi.png" />
+        <arc id="steps" x="-35" y="-35" width="70" height="70" arc-width="2" />
+        <arc x="-35" y="-35" width="70" height="70" arc-width="2" fill-opacity="0.2" />
+      </g>
+      <g fill="red">
+        <image x="-12" y="-18" width="24" height="36" href="img/heart.png" />
+        <!-- A spiral, the hard way -->
+        <arc id="heart0" x="-24" y="-24" width="48" height="48" arc-width="2" sweep-angle="180" />
+        <arc id="heart1" x="-26" y="-28" width="52" height="52" arc-width="2" sweep-angle="180" start-angle="180" />
+        <arc id="heart2" x="-28" y="-28" width="56" height="56" arc-width="2" sweep-angle="180" />
+        <arc id="heart3" x="-30" y="-32" width="60" height="60" arc-width="2" sweep-angle="180" start-angle="180" />
+        <arc id="heart4" x="-32" y="-32" width="64" height="64" arc-width="2" sweep-angle="180" />
+        <arc id="heart5" x="-34" y="-36" width="68" height="68" arc-width="2" sweep-angle="180" start-angle="180" />
+        <arc id="heart6" x="-36" y="-36" width="72" height="72" arc-width="2" sweep-angle="180" />
+        <arc id="heart7" x="-38" y="-40" width="76" height="76" arc-width="2" sweep-angle="140" start-angle="180" />
+      </g>
+      <g fill="orange" transform="translate(0,80)">
+        <image x="-18" y="-18" width="36" height="36" href="img/flame.png" />
+        <arc id="calories" x="-35" y="-35" width="70" height="70" arc-width="2" />
+        <arc x="-35" y="-35" width="70" height="70" arc-width="2" fill-opacity="0.2" />
+      </g>
+    </g>
+
+  </svg>

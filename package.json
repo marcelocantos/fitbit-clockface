@@ -1,0 +1,25 @@
+{
+  "fitbit": {
+    "appUUID": "eaa8f639-306c-46a8-b405-bf7906a279c3",
+    "appType": "clockface",
+    "appDisplayName": "foobar",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_activity"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "foobar"
+      }
+    }
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~3.0.0"
+  }
+}
