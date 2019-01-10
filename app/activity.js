@@ -3,13 +3,11 @@ import document from "document"
 
 const updater = name => {
   const goal = goals[name] || 0
-  console.log(`${name} goal: ${goal}`);
 
   const element = document.getElementById(name)
 
   return () => {
     const actual = today.adjusted[name] || 0
-    console.log(`${name}: ${actual}/${goal}`)
     element.sweepAngle = 360 * actual / goal
   }
 }
@@ -22,7 +20,7 @@ export default () => {
     updateSteps()
     updateCalories()
   }
-  
+
   let interval
 
   return ({ display, bodyPresent }) => {

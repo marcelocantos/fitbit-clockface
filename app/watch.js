@@ -8,7 +8,6 @@ clock.granularity = "seconds"
 export default () => {
   const tick = evt => {
     const d = evt.date
-    console.log(`tick: ${d.toString()}`)
     date(d)
     time(d)
   }

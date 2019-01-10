@@ -25,5 +25,8 @@
   },
   "scripts": {
     "build": "fitbit-build"
+  },
+  "dependencies": {
+    "eslint": "^5.12.0"
   }
 }

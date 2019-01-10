@@ -11,8 +11,7 @@ export default () => {
     const hrm = new HeartRateSensor()
 
     hrm.onreading = () => {
-      console.log(`Heartrate reading: ${hrm.heartRate}`)
-      const angle = hrm.heartRate * degPerMinute
+      let angle = hrm.heartRate * degPerMinute
       for (const heart of hearts) {
         heart.sweepAngle = Math.max(0, Math.min(angle, 180))
         angle -= 180

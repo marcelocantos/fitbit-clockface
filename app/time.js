@@ -1,4 +1,3 @@
-import clock from "clock"
 import document from "document"
 import { me as device } from "device"
 
@@ -7,8 +6,6 @@ const screen = device.screen || { width: 348, height: 250 }
 const epsilon = 1e-5
 const on60 = 1/60
 const degPerHour = 360 / 12
-const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
-const days2 = days.map(d => d.substring(0, 2))
 
 const face = document.getElementById("face")
 const [hDim, mDim, sDim] = ["h", "m", "s"].map(dim => ({
